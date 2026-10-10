@@ -1,0 +1,38 @@
+{
+  "rows": 45211,
+  "subscribers": 5289,
+  "overall_rate": 0.11698480458295547,
+  "missing_cells": 0,
+  "unknown_counts": {
+    "job": 288,
+    "marital": 0,
+    "education": 1857,
+    "default": 0,
+    "housing": 0,
+    "loan": 0,
+    "contact": 13020,
+    "month": 0,
+    "poutcome": 36959,
+    "y": 0
+  },
+  "model": {
+    "train_rows": 36168,
+    "test_rows": 9043,
+    "test_subscription_rate": 0.31582439455932765,
+    "roc_auc": 0.7162256045136658,
+    "average_precision": 0.5467474629893788,
+    "precision_at_0_5": 0.42482283087531125,
+    "recall_at_0_5": 0.7766106442577031,
+    "top_20_percent_rows": 1809,
+    "top_20_percent_subscription_rate": 0.6086235489220564,
+    "top_20_percent_lift": 1.9270948014363292,
+    "baseline_accuracy": 0.6841756054406724,
+    "baseline_recall": 0.0,
+    "excluded_columns": [
+      "duration",
+      "campaign",
+      "day",
+      "month"
+    ]
+  }
+}
